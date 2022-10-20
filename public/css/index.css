@@ -241,9 +241,6 @@ p {
   padding: 0 20px 0 0;
 }
 .navigation .navigation-logo-fixed {
-  position: fixed;
-  display: none;
-  z-index: 1;
 }
 .navigation .navigation-logo-scroll {
   padding: 0 20px 10px 0;
