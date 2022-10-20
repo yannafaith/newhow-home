@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="410" height="333.808" viewBox="0 0 410 333.808">
   <g id="Group_32" data-name="Group 32" transform="translate(-733.5 -233)">
-    <ellipse id="Ellipse_114" data-name="Ellipse 114" cx="74.274" cy="16.724" rx="74.274" ry="16.724" transform="translate(987.565 533.36)" fill="#ff6b6b"/>
+    <ellipse id="Ellipse_114" data-name="Ellipse 114" cx="74.274" cy="16.724" rx="74.274" ry="16.724" transform="translate(987.565 533.36)" fill="#808080"/>
     <ellipse id="Ellipse_115" data-name="Ellipse 115" cx="74.274" cy="16.724" rx="74.274" ry="16.724" transform="translate(994.452 528.442)" fill="none" stroke="#2b2b2b" stroke-miterlimit="10" stroke-width="1"/>
-    <circle id="Ellipse_116" data-name="Ellipse 116" cx="14.756" cy="14.756" r="14.756" transform="translate(933.704 368.334)" fill="#ff6b6b"/>
-    <circle id="Ellipse_117" data-name="Ellipse 117" cx="14.756" cy="14.756" r="14.756" transform="translate(993.222 368.334)" fill="#ff6b6b"/>
-    <circle id="Ellipse_118" data-name="Ellipse 118" cx="14.756" cy="14.756" r="14.756" transform="translate(1052.74 368.334)" fill="#ff6b6b"/>
-    <rect id="Rectangle_70" data-name="Rectangle 70" width="101.328" height="31.48" transform="translate(766.71 266.269)" fill="#ff6b6b"/>
+    <circle id="Ellipse_116" data-name="Ellipse 116" cx="14.756" cy="14.756" r="14.756" transform="translate(933.704 368.334)" fill="#808080"/>
+    <circle id="Ellipse_117" data-name="Ellipse 117" cx="14.756" cy="14.756" r="14.756" transform="translate(993.222 368.334)" fill="#808080"/>
+    <circle id="Ellipse_118" data-name="Ellipse 118" cx="14.756" cy="14.756" r="14.756" transform="translate(1052.74 368.334)" fill="#808080"/>
+    <rect id="Rectangle_70" data-name="Rectangle 70" width="101.328" height="31.48" transform="translate(766.71 266.269)" fill="#808080"/>
     <rect id="Rectangle_71" data-name="Rectangle 71" width="179.045" height="106.247" transform="translate(734 238.477)" fill="none" stroke="#2b2b2b" stroke-miterlimit="10" stroke-width="1"/>
     <line id="Line_3" data-name="Line 3" x2="179.045" transform="translate(734 246.523)" fill="none" stroke="#2b2b2b" stroke-miterlimit="10" stroke-width="1"/>
     <rect id="Rectangle_72" data-name="Rectangle 72" width="101.328" height="31.48" transform="translate(772.859 260.12)" fill="none" stroke="#2b2b2b" stroke-miterlimit="10" stroke-width="1"/>
@@ -15,7 +15,7 @@
     <rect id="Rectangle_76" data-name="Rectangle 76" width="135.759" height="4.071" transform="translate(755.397 309.554)" fill="none" stroke="#2b2b2b" stroke-miterlimit="10" stroke-width="1"/>
     <rect id="Rectangle_77" data-name="Rectangle 77" width="135.759" height="4.071" transform="translate(755.397 319.324)" fill="none" stroke="#2b2b2b" stroke-miterlimit="10" stroke-width="1"/>
     <rect id="Rectangle_78" data-name="Rectangle 78" width="135.759" height="4.071" transform="translate(755.397 329.094)" fill="none" stroke="#2b2b2b" stroke-miterlimit="10" stroke-width="1"/>
-    <rect id="Rectangle_79" data-name="Rectangle 79" width="101.328" height="31.48" transform="translate(808.028 450.232)" fill="#ff6b6b"/>
+    <rect id="Rectangle_79" data-name="Rectangle 79" width="101.328" height="31.48" transform="translate(808.028 450.232)" fill="#808080"/>
     <path id="Path_212" data-name="Path 212" d="M263.545,405.988v84.6H84.5V384.345H230.1" transform="translate(690.818 38.096)" fill="none" stroke="#2b2b2b" stroke-miterlimit="10" stroke-width="1"/>
     <line id="Line_4" data-name="Line 4" x2="145.843" transform="translate(775.318 430.487)" fill="none" stroke="#2b2b2b" stroke-miterlimit="10" stroke-width="1"/>
     <rect id="Rectangle_80" data-name="Rectangle 80" width="101.328" height="31.48" transform="translate(814.177 444.084)" fill="none" stroke="#2b2b2b" stroke-miterlimit="10" stroke-width="1"/>

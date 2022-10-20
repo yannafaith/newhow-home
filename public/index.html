@@ -46,39 +46,32 @@
     <!-- GSAP Script End -->
   </head>
   <body>
-    <div id="home" class="container">
+    <div id="home" >
       <header class="header">
         <nav class="navigation">
           <div class="navigation-logo">
             <a href="#home">
               <img
+                      id="logo"
                 src="./assets/newhow.png"
                 alt="Navigation - newHow logo "
               />
             </a>
           </div>
-          <div class="navigation-logo-fixed">
-            <a href="#home">
-              <img
-                      src="./assets/newhow.png"
-                alt="Navigation - How to logo"
-              />
-            </a>
-          </div>
-          <div class="navigation-links">
-            <a href="#learn" class="navigation-link">Learn</a>
-            <a href="#discover" class="navigation-link">Discover</a>
-            <a href="#contribute" class="navigation-link">Contribute</a>
-            <a href="#features" class="navigation-link">Features</a>
-            <a href="#team" class="navigation-link">Team</a>
-            <a href="#" class="navigation-hamburger-button">
-              <img
-                class="navigation-hamburger-button-img"
-                src="./assets/hamburger-menu-icon-open.svg"
-                alt="Open mobile menu"
-              />
-            </a>
-          </div>
+<!--          <div class="navigation-links ">-->
+<!--            <a href="#learn" class="navigation-link">Learn</a>-->
+<!--            <a href="#discover" class="navigation-link">Discover</a>-->
+<!--            <a href="#contribute" class="navigation-link">Contribute</a>-->
+<!--            <a href="#features" class="navigation-link">Features</a>-->
+<!--            <a href="#team" class="navigation-link">Team</a>-->
+<!--            <a href="#" class="navigation-hamburger-button">-->
+<!--              <img-->
+<!--                class="navigation-hamburger-button-img"-->
+<!--                src="./assets/hamburger-menu-icon-open.svg"-->
+<!--                alt="Open mobile menu"-->
+<!--              />-->
+<!--            </a>-->
+<!--          </div>-->
           <div class="navigation-cta">
             <a href="https://howto-frontend.netlify.com/login" target="_blank">
               <div class="navigation-cta-login">Login</div>
@@ -107,7 +100,7 @@
             >
           </div>
         </nav>
-        <div class="header-main">
+        <div class="header-main container">
           <div class="header-description-container">
             <div class="header-description">
               <h1>
@@ -146,7 +139,7 @@
           </div>
         </div>
       </header>
-      <section class="content-panel" id="learn">
+      <section class="container content-panel" id="learn">
         <div class="content-image content-image-normal">
           <img
             class="content-image-img"
@@ -171,7 +164,7 @@
           </p>
         </div>
       </section>
-      <section class="content-panel content-panel-reverse" id="discover">
+      <section class="container content-panel content-panel-reverse" id="discover">
         <div class="content-image content-image-reverse">
           <img
             class="content-image-img"
@@ -191,7 +184,7 @@
           <p></p>
         </div>
       </section>
-      <section class="content-panel" id="contribute">
+      <section class="container content-panel" id="contribute">
         <div class="content-image content-image-normal">
           <img
             class="content-image-img"
@@ -213,170 +206,6 @@
     </div>
     <!-- How TO - Image Hover Overlay: -->
     <!-- source: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_fade -->
-    <section class="team" id="team">
-      <div class="team-title">
-        <h2>Meet The Team</h2>
-        <p>Get to know the talented and dedicated engineers who power newHow.</p>
-      </div>
-      <div class="team-cards">
-        <div class="team-card">
-          <a
-            class="team-card-link"
-            href="https://github.com/tgreenhalgh"
-            target="_blank"
-          >
-            <div class="team-image">
-              <img
-                class="team-img"
-                src="./assets/team/thomas-greenhalgh.jpg"
-                alt="Thomas Greenhalgh - Lead Software Engineer"
-              />
-              <div class="overlay">
-                <div class="overlay-text">
-                  View Github<img
-                    class="github-icon"
-                    src="./assets/github-profile-link.svg"
-                    alt="Github Profile Link"
-                  />
-                </div>
-              </div>
-            </div>
-            <p class="team-member-name">Thomas Greenhalgh</p>
-            <p class="team-member-title">Lead Software Engineer</p>
-          </a>
-        </div>
-        <div class="team-card">
-          <a
-            class="team-card-link"
-            href="https://github.com/yannafaith"
-            target="_blank"
-          >
-            <div class="team-image">
-              <img
-                class="team-img"
-                src="./assets/team/kayanna-chandler.jpg"
-                alt="Kayanna Chandler - Back End Software Engineer"
-              />
-              <div class="overlay">
-                <div class="overlay-text">
-                  View Github<img
-                    class="github-icon"
-                    src="./assets/github-profile-link.svg"
-                    alt="Github Profile Link"
-                  />
-                </div>
-              </div>
-            </div>
-            <p class="team-member-name">Kayanna Chandler</p>
-            <p class="team-member-title">Back End Software Engineer</p>
-          </a>
-        </div>
-        <div class="team-card">
-          <a
-            class="team-card-link"
-            href="https://github.com/macjabeth"
-            target="_blank"
-          >
-            <div class="team-image">
-              <img
-                class="team-img"
-                src="./assets/team/jonathan-picazo.jpg"
-                alt="Jonathan Picazo - Front End Software Engineer"
-              />
-              <div class="overlay">
-                <div class="overlay-text">
-                  View Github<img
-                    class="github-icon"
-                    src="./assets/github-profile-link.svg"
-                    alt="Github Profile Link"
-                  />
-                </div>
-              </div>
-            </div>
-            <p class="team-member-name">Jonathan Picazo</p>
-            <p class="team-member-title">Front End Software Engineer</p>
-          </a>
-        </div>
-        <div class="team-card">
-          <a
-            class="team-card-link"
-            href="https://github.com/tfolbrecht"
-            target="_blank"
-          >
-            <div class="team-image">
-              <img
-                class="team-img"
-                src="./assets/team/thomas-folbrecht.jpg"
-                alt="Thomas Folbrecht - Front End Software Engineer"
-              />
-              <div class="overlay">
-                <div class="overlay-text">
-                  View Github<img
-                    class="github-icon"
-                    src="./assets/github-profile-link.svg"
-                    alt="Github Profile Link"
-                  />
-                </div>
-              </div>
-            </div>
-            <p class="team-member-name">Thomas Folbrecht</p>
-            <p class="team-member-title">Front End Software Engineer</p>
-          </a>
-        </div>
-        <div class="team-card">
-          <a
-            class="team-card-link"
-            href="https://github.com/danpatrickoneill"
-            target="_blank"
-          >
-            <div class="team-image">
-              <img
-                class="team-img"
-                src="./assets/team/daniel-oneill.jpg"
-                alt="Daniel O'Neill - Web UI Software Engineer"
-              />
-              <div class="overlay">
-                <div class="overlay-text">
-                  View Github<img
-                    class="github-icon"
-                    src="./assets/github-profile-link.svg"
-                    alt="Github Profile Link"
-                  />
-                </div>
-              </div>
-            </div>
-            <p class="team-member-name">Daniel O'Neill</p>
-            <p class="team-member-title">Web UI Software Engineer</p>
-          </a>
-        </div>
-        <div class="team-card">
-          <a
-            class="team-card-link"
-            href="https://github.com/chrisipanaque"
-            target="_blank"
-          >
-            <div class="team-image">
-              <img
-                class="team-img"
-                src="./assets/team/christian-ipanaque.jpg"
-                alt="Christian Ipanaque - Web UI Software Engineer"
-              />
-              <div class="overlay">
-                <div class="overlay-text">
-                  View Github<img
-                    class="github-icon"
-                    src="./assets/github-profile-link.svg"
-                    alt="Github Profile Link"
-                  />
-                </div>
-              </div>
-            </div>
-            <p class="team-member-name">Christian Ipanaque</p>
-            <p class="team-member-title">Web UI Software Engineer</p>
-          </a>
-        </div>
-      </div>
-    </section>
     <footer class="footer">
       <img
         class="footer-img"
@@ -388,7 +217,6 @@
         <a class="footer-navigation-link" href="#discover">Discover</a>
         <a class="footer-navigation-link" href="#contribute">Contribute</a>
         <a class="footer-navigation-link" href="#features">Features</a>
-        <a class="footer-navigation-link" href="#team">Team</a>
       </div>
       <a
         class="footer-button-anchor"
@@ -399,7 +227,7 @@
         </button>
       </a>
       <div class="footer-copyright">
-        Copyright © 2019 -
+        Copyright © 2022 -
         <span class="white">newHow Team, Oct 2022</span>
       </div>
     </footer>
